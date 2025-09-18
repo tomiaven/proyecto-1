@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dionisio Pamplona Polo - Mártir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Biografía de Dionisio Pamplona Polo</h1>
+        <nav>
+            <ul>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#muerte">Muerte</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biografia">
+            <h2>Datos Personales</h2>
+            <p>Dionisio Pamplona Polo nació el <strong>11 de octubre de 1868</strong> en la localidad de <em>Calamocha</em>, provincia de Teruel, España. Fue el segundo de tres hermanos, hijo de <strong>Santiago Pamplona</strong> y <strong>Damiana Polo</strong>.</p>
+            <p>Ingresó al noviciado de la Orden de las Escuelas Pías en la ciudad de Peralta de la Sal (provincia de Huesca) en 1882 y profesó sus primeros votos en 1885. Fue ordenado sacerdote el 7 de septiembre de 1893 en la comunidad de los Escolapios de Jaca.</p>
+
+            <h3>Trayectoria religiosa</h3>
+            <ul>
+                <li>Profesor en los colegios de Jaca, Sos del Rey Católico, Zaragoza, Alcañiz, Pamplona y Barbastro.</li>
+                <li>Ecónomo, secretario provincial y maestro de novicios.</li>
+                <li>Director del colegio de Pamplona (1923-1934).</li>
+                <li>Superior de la comunidad escolar de Peralta de la Sal (1934).</li>
+            </ul>
+
+            <img src="dionisio_pamplona.jpg" alt="Retrato de Dionisio Pamplona Polo" class="img-biografia">
+        </section>
+
+        <section id="muerte">
+            <h2>Muerte y Martirio</h2>
+            <p>El 23 de julio de 1936, durante la Guerra Civil Española, milicianos entraron en la comunidad y encarcelaron a los religiosos. Dionisio Pamplona Polo fue trasladado a la cárcel de Monzón y el 25 de julio fue sacado junto con otros prisioneros. Fueron acribillados en la Plaza Mayor de Peralta de la Sal, y Dionisio murió gritando: <strong>"¡Viva Cristo Rey!"</strong></p>
+
+            <h3>Detalles de la ejecución</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Ubicación</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>25 de julio de 1936</td>
+                        <td>Plaza Mayor, Peralta de la Sal</td>
+                        <td>Acribillado junto a 23 prisioneros, murió proclamando "¡Viva Cristo Rey!"</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="/enviar" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Biografía de Dionisio Pamplona Polo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
